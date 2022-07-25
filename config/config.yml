@@ -1,0 +1,27 @@
+URL: http://www.baidu.com
+Driver: http://127.0.0.1:4723/wd/hub
+log:
+    file_name: test.log
+    backup: 5
+    console_level: WARNING
+    file_level: DEBUG
+    pattern: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+device:
+    platformVersion: "10.0"
+    platformName: "Android"
+    deviceName: "1e4218b1"
+    appPackage: "org.suirui.huijian"
+    appActivity: "org.suirui.gbz.WelcomeActivity"
+    noReset: "true"
+    unicodeKeyborad: "true"   #使用Unicode编码方式发送字符串
+    resetKeyborad: "true"     #隐藏键盘
+    ip: "127.0.0.1"
+    #port:
+    #devices_list: ["7f4bd69a",""]  #给出需要启动的设备udid,此处启动2个真机
+    #devices_list: ["","127.0.0.1:62001"]
+#    devices_list: [ "1e4218b1", "7f4bd69a"]
+#    phone: [ "" ]
+
+
+

@@ -1,0 +1,16 @@
+homePage: # 首页的数据
+    isJoinMeeting : False # 加入会议
+
+
+joinMeetPage: # 加入会议页面参数
+     confid : "1250"  # 会议号码
+     nickName : "autoTest"
+     closeAudio : True   # 入会是否自动关闭音频
+     closeVideo : True    # 入会是否自动关闭视频
+
+enterExitMeet: #入退会测试用例
+  number : 10 #自动入退会次数
+  waitTime : 5 # 等待几秒后自动退会议
+
+openCloseAudio: #开关麦克风测试用例
+  nums: 1000 #开关镜头循环次数
